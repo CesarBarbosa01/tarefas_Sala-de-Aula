@@ -1,4 +1,6 @@
-const obj = {};
-console.log(Object.keys(obj));
-console.log(Object.values(obj));
-console.log(Object.entries(obj));
+const vazio = {}
+if (Object.keys(vazio).length === 0) {
+    console.log("Está vazia")
+} else {
+ console.log("Tem valor")
+}
