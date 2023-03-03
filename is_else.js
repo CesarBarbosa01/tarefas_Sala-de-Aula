@@ -6,3 +6,9 @@ let n2 = 20
     } else {
         console.log(`${n1} é menor que ${n2}`)
     }
+
+    /*
+    forEach ()
+    filter()
+    findinde()
+    */
