@@ -5,12 +5,14 @@ const listaDeCompras = {
     }
 }
 
-let feijao = listaDeCompras.produtos.Feijão
-let leite = listaDeCompras.produtos.Leite
-let soma = [feijao, leite]
+const valores = Object.values(listaDeCompras.produtos)
+let soma = 0
 
-for (let i in soma) {
-    console.log(soma[i])
+for (let i = 0; i < valores.length; i++) {
+    soma = soma + valores[1];
 }
+console.log(soma)
+
+
 
 
