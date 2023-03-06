@@ -1,5 +1,5 @@
 const listaDeNomes = {
-    nomes: ['César', 'Eduardo', 'Gustavolasdasdas']
+    nomes: ['César', 'Eduardo', 'Gustavo']
 }
 let nomes = Object.values(listaDeNomes.nomes)
 let maiorNome = 0;
