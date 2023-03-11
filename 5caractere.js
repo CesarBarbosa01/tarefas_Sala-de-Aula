@@ -1,10 +1,9 @@
- function MaiorNomeDoArray(nomes) {
-    maiorNome = 5
-    for (let i in nomes) {
-        if (i > maiorNome) {
-            console.log(`Os nomes com mais de 5 caracteres são: ${nomes}`)
-        }
-    }
-    return nomes
- } 
- console.log(MaiorNomeDoArray(["Cesar", "Eduardo", "Camille", "Ana"]))
+function filtrarStrings(arrayDeStrings) {
+    const novaArray = arrayDeStrings.filter((string) => string.length > 5);
+    return novaArray;
+  }
+
+  const arrayDeStrings = ["foo", "bar", "foobar", "baz", "qux", "quux"];
+  const novaArray = filtrarStrings(arrayDeStrings);
+  console.log(novaArray); 
+ 
